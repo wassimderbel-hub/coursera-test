@@ -53,43 +53,45 @@ h1 {
   background-color: cyan;
 }
 
-.name1{
+.title1{
   background-color:blue;
 }
 
-.name2{
+.title2{
   color: white;
   background-color: pink;
 }
-.name3{
+.title3{
   background-color:maroon;
 }
 
 
-/********** desktop devices  **********/
+/********** desktop   **********/
 @media (min-width: 992px) {
   .col-lg-4 {
   	float: left;
     width: 33.33%;
   }
 }
-/********** tablet devices **********/
+/********** tablet  **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6,.col-md-12 {
     float: left;
   }
   .col-md-6 {
-    width: 50%;}
-   .col-md-12 {
+    width: 50%;
+	}
+	
+  .col-md-12 {
     width: 100%;
 
-    }
+           }
   
   
 
   }
 }
-/************ phone devices**********/
+/************ phone **********/
 @media (min-width: 0px) and (max-width: 767px) {
   .col-sm-12 {
     float: left;
