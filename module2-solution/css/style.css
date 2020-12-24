@@ -1,3 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	padding: 0;
+  font-family: sans-serif;
+}
+
+.row{
+  margin-top: 15%;
+  margin-bottom: 25%;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: red;
+  font-size: 100px;
+}
+
 .box{
   width: 100%;
   overflow: none;
